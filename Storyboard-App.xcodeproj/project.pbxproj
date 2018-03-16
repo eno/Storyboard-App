@@ -16,6 +16,7 @@
 		9DEF7BB6205B145E00900DE7 /* Storyboard_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BB5205B145E00900DE7 /* Storyboard_AppUITests.swift */; };
 		9DEF7BC4205B178B00900DE7 /* DestinationController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */; };
 		9DEF7BC6205B179B00900DE7 /* DestinationController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */; };
+		9DEF7BC9205B60B100900DE7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF7BC8205B60B100900DE7 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController1.swift; sourceTree = "<group>"; };
 		9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController2.swift; sourceTree = "<group>"; };
 		9DEF7BC7205B5E7E00900DE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9DEF7BC8205B60B100900DE7 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		9DEF7B94205B145E00900DE7 /* Storyboard-App */ = {
 			isa = PBXGroup;
 			children = (
+				9DEF7BC8205B60B100900DE7 /* images */,
 				9DEF7B95205B145E00900DE7 /* AppDelegate.swift */,
 				9DEF7B97205B145E00900DE7 /* ViewController.swift */,
 				9DEF7B99205B145E00900DE7 /* Main.storyboard */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEF7BC9205B60B100900DE7 /* images in Resources */,
 				9DEF7BA0205B145E00900DE7 /* LaunchScreen.storyboard in Resources */,
 				9DEF7B9D205B145E00900DE7 /* Assets.xcassets in Resources */,
 				9DEF7B9B205B145E00900DE7 /* Main.storyboard in Resources */,
