@@ -52,7 +52,7 @@
 		9DEF7BB7205B145E00900DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController1.swift; sourceTree = "<group>"; };
 		9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController2.swift; sourceTree = "<group>"; };
-		9DEF7BC7205B5E7E00900DE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9DEF7BC7205B5E7E00900DE7 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; lineEnding = 0; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		9DEF7BC8205B60B100900DE7 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
