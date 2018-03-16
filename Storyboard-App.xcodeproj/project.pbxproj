@@ -14,6 +14,8 @@
 		9DEF7BA0205B145E00900DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF7B9E205B145E00900DE7 /* LaunchScreen.storyboard */; };
 		9DEF7BAB205B145E00900DE7 /* Storyboard_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BAA205B145E00900DE7 /* Storyboard_AppTests.swift */; };
 		9DEF7BB6205B145E00900DE7 /* Storyboard_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BB5205B145E00900DE7 /* Storyboard_AppUITests.swift */; };
+		9DEF7BC4205B178B00900DE7 /* DestinationController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */; };
+		9DEF7BC6205B179B00900DE7 /* DestinationController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		9DEF7BB1205B145E00900DE7 /* Storyboard-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storyboard-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEF7BB5205B145E00900DE7 /* Storyboard_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard_AppUITests.swift; sourceTree = "<group>"; };
 		9DEF7BB7205B145E00900DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController1.swift; sourceTree = "<group>"; };
+		9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationController2.swift; sourceTree = "<group>"; };
+		9DEF7BC7205B5E7E00900DE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		9DEF7B89205B145D00900DE7 = {
 			isa = PBXGroup;
 			children = (
+				9DEF7BC7205B5E7E00900DE7 /* README.md */,
 				9DEF7B94205B145E00900DE7 /* Storyboard-App */,
 				9DEF7BA9205B145E00900DE7 /* Storyboard-AppTests */,
 				9DEF7BB4205B145E00900DE7 /* Storyboard-AppUITests */,
@@ -103,6 +109,8 @@
 				9DEF7B9C205B145E00900DE7 /* Assets.xcassets */,
 				9DEF7B9E205B145E00900DE7 /* LaunchScreen.storyboard */,
 				9DEF7BA1205B145E00900DE7 /* Info.plist */,
+				9DEF7BC3205B178B00900DE7 /* DestinationController1.swift */,
+				9DEF7BC5205B179B00900DE7 /* DestinationController2.swift */,
 			);
 			path = "Storyboard-App";
 			sourceTree = "<group>";
@@ -261,6 +269,8 @@
 			files = (
 				9DEF7B98205B145E00900DE7 /* ViewController.swift in Sources */,
 				9DEF7B96205B145E00900DE7 /* AppDelegate.swift in Sources */,
+				9DEF7BC4205B178B00900DE7 /* DestinationController1.swift in Sources */,
+				9DEF7BC6205B179B00900DE7 /* DestinationController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB862X2362;
 				INFOPLIST_FILE = "Storyboard-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eu.Storyboard-App";
@@ -441,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB862X2362;
 				INFOPLIST_FILE = "Storyboard-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eu.Storyboard-App";
